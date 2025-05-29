@@ -1,0 +1,63 @@
+from django.db import models
+
+
+class RequiredFields(models.TextChoices):
+    ICON = 'icon'
+    PERCENTAGE = 'percentage'
+
+
+class TypeGroupName(models.TextChoices):
+    AIR_CONDITIONING_SYSTEM = 'air-conditioning-system'
+    AIR_CONDITIONING_TYPE = 'air-conditioning-type'
+    #AREA_STATUS = 'area-status'
+    ASSET_AMENITIES = 'asset-amenities'
+    ASSET_SUB_TYPE = 'asset-sub-type'
+    ASSET_CLASS = 'asset-class'
+    ASSET_TYPE = 'asset-type'
+    BUSINESS_CENTRE_CORPORATE = 'business-centre-corporate'
+    CERTIFICATION_RATINGS = 'certification-ratings'
+    COMPLEX_NAME = 'complex-name'
+    DEVELOPER_OR_OWNER = 'developer-or-owner'
+    FLOORING_TYPE = 'flooring-type'
+    FLOOR_TYPE = 'floor-type'
+    FUNCTION = 'function'
+    FURNITURE_TYPE = 'furniture-type'
+    FIT_OUT_TYPE = 'fit-out-type'
+    HOTEL_APARTMENTS_UNITS_TYPE = 'hotel-apartments-units-type'
+    INDUSTRY = 'industry'
+    LAND_TYPE = 'land-type'
+    LICENSE_ID = 'license-id'
+    LICENSE_TYPE = 'license-type'
+    LOCATION_AMENITIES = 'location-amenities'
+    LOCATION = 'location'
+    LOCATION_TYPE = 'location-type'
+    MINIMUM_LEASING_PERIOD = 'minimum-leasing-period'
+    MUNICIPALITY_AUTHORITY = 'municipality-authority'
+    PARTITION_TYPE = 'partition-type'
+    PAYMENT_TERMS = 'payment-terms'
+    RESIDENTIAL_UNITS_TYPE = 'residential-units-type'
+    SERVICED_OFFICES_TYPE = 'serviced-offices-type'
+    SPECIALTY = 'specialty'
+    STATUS = 'status'
+    SUBLEASE_TAX = 'sublease-tax'
+    SUB_STATUS = 'sub-status'
+    TOWNHOUSE_TYPE = 'townhouse-type'
+    TRANSACTION_TYPE = 'transaction-type'
+    TYPE_OF_CERTIFICATION = 'type-of-certification'
+    UNIT_AMENITIES = 'unit-amenities'
+    UNIT_SUB_TYPE = 'unit-sub-type'
+    UNIT_TYPE = 'unit-type'
+    VAT_AMOUNT = 'vat-amount'
+    VIEW_TYPE = 'view-type'
+    VILLA_TYPE = 'villa-type'
+    TRANSFER_FEES = 'transfer-fees'
+    ZONING_AUTHORITY = 'zoning-authority'
+
+
+class MediaAttachmentTypes(models.TextChoices):
+    AFFECTION_PLAN = 'affection_plan', 'Affection Plan'
+    LOCATION = 'location', 'Location'
+    PAYMENT_PLAN = 'payment_plan', 'Payment Plan'
+    PICTURE = 'picture', 'Picture'
+    PLAN = 'plan', 'Plan'    
+ 

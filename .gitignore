@@ -16,7 +16,6 @@ celerybeat-schedule.db
 .AppleDouble
 .LSOverride
 sqlite3.db
-Pipfile.lock
 .static
 .media
 media/*
